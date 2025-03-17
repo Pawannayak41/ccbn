@@ -60,5 +60,4 @@ jobs:
           app-name: "backend13-b5c3a9eybbd7epg3"
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
-          restart: true
-          clean: true
+
